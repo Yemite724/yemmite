@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    background: #ddd;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ul{
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+}
+#registerAcc,
+#account{
+    display: none;
+}
+div.container{
+    background: #f7f6f6;
+    padding: 20px;
+    width: 300px;
+}
+div.formHead{
+    border-bottom: 1px solid rgb(136, 136, 136);
+    padding: 0 0 10px;
+}
+form{
+    margin: 10px 0 0 0;
+    width:100%;
+}
+div.row{
+    margin: 20px 0 0 0;
+}
+label{
+    display: block;
+    font-size: 10px;
+    color: rgb(167, 165, 165);
+    margin: 0 0  5px;
+}
+input.form-control{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 12px;
+}
+input::placeholder{
+    color: #ddd
+}
+.btn{
+    border: 0;
+    background: rgb(170, 168, 168);
+    padding: 10px;
+    color: #f7f6f6;
+    border-radius: 5px;
+}
